@@ -5,7 +5,8 @@ R-package to predict tumor purity using a Random Forest regression model trained
 
 ```{r}
 # install package via devtools
-if(!require(devtools)) install.packages("devtools")                
+if(!require(devtools)) install.packages("devtools")   
+library(devtools)
 install_github('mwsill/puremeth')
 library(puremeth)
 library(minfiData)
