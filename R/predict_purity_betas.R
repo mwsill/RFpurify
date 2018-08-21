@@ -8,5 +8,5 @@
 
 predict_purity_betas <- function(betas) {
   betas <- betas[match(rownames(puremeth$importance), rownames(betas)), , drop = FALSE]
-  out <- predict(puremeth, t(betas))
+  predict(puremeth, t(betas))
 }
