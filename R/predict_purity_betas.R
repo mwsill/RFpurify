@@ -8,5 +8,5 @@
 
 predict_purity_betas <- function(betas) {
   betas <- betas[match(rownames(puremeth$importance), rownames(betas)), , drop = FALSE]
-  out <- randomForest::predict(puremeth, t(betas))
+  out <- predict(puremeth, t(betas))
 }
