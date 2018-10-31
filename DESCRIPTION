@@ -1,4 +1,4 @@
-Package: RF_purify
+Package: RFpurify
 Type: Package
 Title: Estimate tumor purity using Illumina infinium methylation data.
 Version: 0.1.0
