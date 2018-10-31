@@ -1,6 +1,6 @@
-Package: puremeth
+Package: RF_purify
 Type: Package
-Title: Estimate tumor purity using methylation data.
+Title: Estimate tumor purity using Illumina infinium methylation data.
 Version: 0.1.0
 Author: Martin Sill
 Maintainer: Martin Sill <m.sill@dkfz>
