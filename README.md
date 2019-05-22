@@ -1,9 +1,9 @@
 RFpurify
 ================
 
-R-package to predict ABSOLUTE or ESTIMATE tumor purity using a Random Forest regression model trained on TCGA Illumina 450k DNA-methylation array data. Purity prediction functions can be applied to 450k and 850k array data preprocessed with the Bioconductor package [minfi](https://bioconductor.org/packages/release/bioc/html/minfi.html).
+R-package to predict ABSOLUTE and ESTIMATE tumor purity using a Random Forest regression model trained on TCGA Illumina 450k DNA-methylation array data. Purity prediction functions can be applied to 450k and 850k array data preprocessed with the Bioconductor package [minfi](https://bioconductor.org/packages/release/bioc/html/minfi.html).
 
-Install minfi and Rf\_purify package from GitHub
+Install minfi and RF\_purify package from GitHub
 ------------------------------------------------
 
 ``` r
