@@ -1,7 +1,7 @@
 Package: RFpurify
 Type: Package
 Title: Estimate tumor purity using Illumina infinium methylation data.
-Version: 0.1.0
+Version: 0.1.1
 Author: Martin Sill
 Maintainer: Martin Sill <m.sill@dkfz>
 Description: Package to predict tumor purity using Illumina 450K and Illumina EPIC methylation data.  
