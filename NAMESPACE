@@ -1,5 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 import(minfi)
-import(minfiData)
 import(randomForest)
 
