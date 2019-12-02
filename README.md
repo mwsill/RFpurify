@@ -15,6 +15,8 @@ if(!require(minfi)){
 
 if(!require(devtools)) install.packages("devtools")   
 library(devtools)
+# prevent warnings from beeing converted to errors when calling install_github
+Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS=TRUE)
 install_github('mwsill/RFpurify')
 ```
 
